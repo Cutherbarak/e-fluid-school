@@ -2,183 +2,159 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-fluid ai School</title>
-    <link rel="stylesheet" href="style.css">
-    <link 
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
-  rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        body {
+            font-family: 'Late' sans-serif;
+            background-color: #d8dbdb;
+            font-size: 18px;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 2%;
+            color: #252527;
+        }
+        .wrapper {
+            background: #f6faff;
+            box-shadow: 0 0 10px #666;
+        }
+        img {
+            max-width: 100%;
+        }
+        .social {
+            width: 98%;
+            text-align: center;
+            list-style-type: none;
+            background-color: rgb(31, 145, 116);
+            padding: 1%;
+        }
+        .social li {
+            display: inline;
+        }
+        .social img {
+            max-width: 45px;
+        }
+        .logo {
+            width: 100%;
+            margin: 1% 0;
+            text-align: center;
+        }
+        .logo img {
+            max-width: 200px;
+        }
+        h2 {
+            letter-spacing: 1%;
+            padding-bottom: 2%;
+        }
+        p {
+            text-align: justify;
+            line-height: 28px;
+        }
+        .button-holder {
+            float: right;
+            margin: 4% 2%;
+        }
+        .btn {
+            float: right;
+            background: rgb(31, 145, 116);
+            text-decoration: none;
+            font-weight: 800;
+            padding: 10px 14px;
+            border-radius: 8px;
+            letter-spacing: 2px;
+            color: azure;
+        }
+        .line {
+            clear: both;
+            height: 1px;
+            background-color: #252527;
+            margin: 6% auto;
+            width: 98%;
+        }
+        .two-col {
+            margin: 4% 0;
+            float: left;
+            width: 46%;
+            padding: 2%;
+        }
+        .contact {
+            text-align: center;
+            padding-bottom: 6%;
+        }
+
+        /* mobile view */
+        @media(max-width:600px) {
+            body {
+                padding: 1%;
+            }
+            .two-col {
+                min-width: 96%;
+                margin: 0!important;
+            }
+            .social img {
+            max-width: 35px;
+            }
+            .logo img {
+            max-width: 150px;
+            }
+            h2 {
+            letter-spacing: 0.1%;
+            padding-bottom: 2%;
+            }
+            p {
+                text-align: justify;
+                line-height: 24px;
+            }
+            .contact {
+            text-align: center;
+            margin-bottom: 6%;
+            }
+        }
+    </style>
 </head>
 <body>
-    <section class="header">
-        <nav>
-            <a href="index.html"><img src="photos/efluid-logo.png"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-window-close" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="course.html">COURSE</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <div class="text-box">
-        <h1>E FLUID AI SCHOOL OF TECHNOLOGY</h1>
-        <p>Website development is now among the easiest thing to learn in the world. You just have to learn HTML, CSS,<br> JAVASCRIPT and you are good to go.</p>
-        <a href="" class="expl-btn">Visit Us To Know More</a>
+    <div class="wrapper">
+        <ul class="social">
+            <li><a href="#" target="_blank"><img src="images/white-facebook.png" alt=""></a></li>
+            <li><a href="#" target="_blank"><img src="images/white-instagram.png" alt=""></a></li>
+            <li><a href="#" target="_blank"><img src="images/white-linkedin.png" alt=""></a></li>
+            <li><a href="#" target="_blank"><img src="images/white-twitter.png" alt=""></a></li>
+            <li><a href="#" target="_blank"><img src="images/white-youtube.png" alt=""></a></li>
+        </ul>
+        <div class="logo">
+            <a href="#"><img src="images/efluid-logo.png" alt=""></a>
         </div>
-    </section>
-
-<!------course------->
-
-    <section class="course">
-        <h1>Courses We Offer</h1>
-        <p>This is a test that uses sound waves to check your baby's heartbeat. It's a type of ultrasound that uses a handheld device to detect changes in movement that are translated as sound.
+        <div class="banner">
+            <img src="images/email template.png" alt="">
+        </div>
+        <div class="two-col">
+            <h2>Latest blog post</h2>
+            <img src="images/sketch watch.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe harum blanditiis assumenda ducimus odit corrupti quibusdam ullam, facilis aliquam molestias ratione amet quod itaque qui repellendus sint, quidem quam? Veniam!</p>
+            <div class="button-holder">
+                <a href="#" class="btn" target="_blank">Learn more</a>
+            </div>
+        </div>
+        <div class="two-col">
+            <h2>Latest blog post</h2>
+            <img src="images/watch.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe harum blanditiis assumenda ducimus odit corrupti quibusdam ullam, facilis aliquam molestias ratione amet quod itaque qui repellendus sint, quidem quam? Veniam!</p>
+            <div class="button-holder">
+                <a href="#" class="btn" target="_blank">Learn more</a>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="logo">
+            <img src="images/efluid-logo.png" alt="">
+        </div>
+        <p class="contact">
+            https://efluid-school.vercel.app/<br>+254 796 069 579<br>Bangalare, Karnakat, IN<br>info@efluidschool.com<br>
         </p>
-
-        <div class="row">
-            <div class="course-col">
-                <h3>Intermediate</h3>
-                <p>It may be classified as a form of Doppler ultrasonography (although usually not technically-graphy but rather sound-generating).It uses the Doppler effects to provide an audible stimulation of the heartbeat.</p>
-            </div>
-            <div class="course-col">
-                <h3>Degree</h3>
-                <p>It may be classified as a form of Doppler ultrasonography (although usually not technically-graphy but rather sound-generating).It uses the Doppler effects to provide an audible stimulation of the heartbeat.</p>
-            </div>
-            <div class="course-col">
-                <h3>Post Graduate</h3>
-                <p>It may be classified as a form of Doppler ultrasonography (although usually not technically-graphy but rather sound-generating).It uses the Doppler effects to provide an audible stimulation of the heartbeat.</p>
-            </div>
-        </div>
-
-
-    </section>
-<!-------------campus------------->
-    <section class="campus">
-        <h1>Our Global Campus</h1>
-        <p>It's a type of ultrasound that uses a handheld device to detect changes in movement that are translated as sound.</p>
-        <div class="row">
-            <div class="campus-col">
-                <img src="photos/barkaofficial.jpg">
-                <div class="layer">
-                    <h2>BUNJUMBURA</h2>
-                </div>
-            </div>
-            <div class="campus-col">
-                <img src="photos/young-african-american doctor.webp">
-                <div class="layer">
-                    <h2>KINSHASA</h2>
-                </div>
-            </div>
-            <div class="campus-col">
-                <img src="photos/ongoribarka.jpg">
-                <div class="layer">
-                    <h2>KIGALI</h2>
-                </div>
-            </div>
-        </div>
-
-
-    </section>
-<!----------Facilities---------->
-    <section class="facilities">
-        <h1>Our Facilities</h1>
-        <p> It's a type of ultrasound that uses a handheld device to detect changes in movement that are translated as sound.</p>
-        <div class="row">
-            <div class="facities-col">
-                <img src="photos/doctor.webp">
-                <h2>Medical Faculties</h2>
-                <p>This hand held ultrasound transducer used to detect the heartbeat of the fetus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam asperiores repudiandae accusantium illo ipsum architecto, doloribus vel, deleniti obcaecati hic reiciendis blanditiis animi distinctio dolorum, totam quaerat voluptatem at tempora. </p>
-            </div>
-            <div class="facities-col">
-                <img src="photos/young-students.webp">
-                <h2>Technological Faculties</h2>
-                <p>This hand held ultrasound transducer used to detect the heartbeat of the fetus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad cupiditate ea commodi qui quaerat quos, repellat unde soluta quo dolore quod, veritatis laboriosam a molestias odit ullam illum. Placeat, officia! </p>
-            </div>
-            <div class="facities-col">
-                <img src="photos/barkamater.jpg">
-                <h2>Engineering Faculties</h2>
-                <p>This hand held ultrasound transducer used to detect the heartbeat of the fetus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi veritatis pariatur ipsa placeat facilis porro id hic earum maiores omnis. Consectetur laboriosam qui distinctio itaque exercitationem ipsam assumenda sit odit! </p>
-            </div>
-        </div>
-    </section>
-
-<!-----------testimonials-------->
-<section class="testimonials">
-    <h1>What Our Students Says</h1>
-        <p> It's a type of ultrasound that uses a handheld device to detect changes in movement that are translated as sound.</p>
-    <div class="row">
-        <div class="testimonial-col">
-            <img src="photos/studentsclass.jpg">
-            <div>
-                <p>This hand held ultrasound transducer used to detect the heartbeat of the fetus.</p>
-                <h3>Steve Harvey</h3>
-            </div>
-        </div>
-        <div class="testimonial-col">
-            <img src="photos/studentsclass1.jpg">
-            <div>
-                <p>This hand held ultrasound transducer used to detect the heartbeat of the fetus.</p>
-                <h3>Miriam Shells</h3>
-            </div>
-        </div>
     </div>
-</section>
-
-
-<!-------------call to action----------->
-<section class="cta">
-    <h1>Online Enrollment Going On Now!<br>Apply For Our Various Online Courses Anywhere From The World</h1>
-    <a href="" class="expl-btn">CONTACT US</a>
-</section>
-
-<!-------------footer----------->
-
-<section class="footer">
-    <h4>About Us</h4>
-    <p>It's a type of ultrasound that uses a handheld device to detect changes<br> in movement that are translated as sound. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dignissimos similique quam placeat dolor doloremque optio, magni consectetur officia sed, dicta reiciendis id quis quae maiores, officiis quasi eveniet voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nemo vitae eum error in voluptates vero, cupiditate dolor earum consequuntur possimus ex sunt, neque repellendus quia quas eligendi labore nam!</p>
-    <div class="icons">
-        <i class="fa fa-facebook"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-linkedin"></i>
-    </div>
-    <p>Made by <i class="fa fa-heart-o">Cuther</i></p>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-<!----------JavaScript for Toggle Menu----------->
-    <script>
-        var navLinks = document.getElementById("navLinks");
-        function showMenu(){
-            navLinks.style.right = "0";
-        }
-        function hideMenu(){
-            navLinks.style.right = "-200px";
-        }
-    </script>
-
-
-
 </body>
 </html>
